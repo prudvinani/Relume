@@ -3,7 +3,6 @@
 
 
 
-
 import Image from "next/image";
 import fourstarimage from "@/public/fourstarimage.png";
 import reactlogo1 from "@/public/reactlogo1.png";
@@ -13,7 +12,6 @@ import relumefonts from "@/public/relumefonts.png";
 import allzakelly from "@/public/allzakelly.png";
 import untillknows from "@/public/untillnows.png";
 import endtoend from "@/public/endtoend.png";
-
 import guest from "@/public/guest.png"
 import { IoMenu } from "react-icons/io5";
 import aeroplane from "@/public/aeroplane.png";
@@ -24,7 +22,6 @@ import memory from "@/public/memory.png";
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-
 
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
@@ -271,7 +268,7 @@ export default function Home() {
                         zIndex: avatars.length - index,
                       }}
                     >
-                      <Image
+                      <img
                         src={avatar.image}
                         alt={`Avatar ${avatar.id}`}
                         className="w-3 h-3 md:w-6 md:h-6 rounded-full border-2 border-white object-cover"
@@ -436,8 +433,7 @@ export default function Home() {
 
 
   {/* this is related to the laptop version */}
-      <div className="hidden md:block">
-      <div className=" md:flex flex flex-col items-center justify-center pt-8 hover:s bg-[rgba(241,240,238,255)]  ">
+      <div className=" md:flex flex flex-col items-center justify-center pt-8 hover:s bg-[rgba(241,240,238,255)] ">
         <div
           style={{
             background: `
@@ -471,7 +467,6 @@ export default function Home() {
           </button>
          </div>
         </div>
-      </div>
       </div>
 
 
