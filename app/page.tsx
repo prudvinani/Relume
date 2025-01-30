@@ -1,13 +1,7 @@
 "use client";
 
 
-// this is related the mobile version
-import aeroplanemobile from "@/public/mobile/aeroplanemobile.png"
-import allzakellymobile from "@/public/mobile/allzakellymobile.png"
-import endtoendmobile from "@/public/mobile/endtoendmobile.png"
-import fivephotomobile from "@/public/mobile/fivethphotomobile.png"
-import memorymobile from "@/public/mobile/memorymobile.png"
-import untillknowmobile from "@/public/mobile/untillknowmobile.png"
+
 
 
 import Image from "next/image";
@@ -19,8 +13,7 @@ import relumefonts from "@/public/relumefonts.png";
 import allzakelly from "@/public/allzakelly.png";
 import untillknows from "@/public/untillnows.png";
 import endtoend from "@/public/endtoend.png";
-import jessica from "@/public/jessa.png";
-import mario from "@/public/mario.png";
+
 import guest from "@/public/guest.png"
 import { IoMenu } from "react-icons/io5";
 import aeroplane from "@/public/aeroplane.png";
@@ -31,7 +24,7 @@ import memory from "@/public/memory.png";
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { ApiError } from "next/dist/server/api-utils";
+
 
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
@@ -278,7 +271,7 @@ export default function Home() {
                         zIndex: avatars.length - index,
                       }}
                     >
-                      <img
+                      <Image
                         src={avatar.image}
                         alt={`Avatar ${avatar.id}`}
                         className="w-3 h-3 md:w-6 md:h-6 rounded-full border-2 border-white object-cover"
