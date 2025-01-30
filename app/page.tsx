@@ -13,7 +13,9 @@ import relumefonts from "@/public/relumefonts.png";
 import allzakelly from "@/public/allzakelly.png";
 import untillknows from "@/public/untillnows.png";
 import endtoend from "@/public/endtoend.png";
-
+import one from "@/public/three.jpeg"
+import two from "@/public/two.jpeg"
+import three from "@/public/one.jpeg"
 import guest from "@/public/guest.png"
 import { IoMenu } from "react-icons/io5";
 import aeroplane from "@/public/aeroplane.png";
@@ -42,18 +44,15 @@ export default function Home() {
   const avatars = [
     {
       id: 1,
-      image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+      image:one
     },
     {
       id: 2,
-      image:
-        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      image:two
     },
     {
       id: 3,
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      image:three
     },
   ];
 
@@ -285,12 +284,12 @@ export default function Home() {
 
 
 
-            <p className="text-9xl tracking-tight font-relative mt-10 hidden md:block">
+            <p className="text-8xl tracking-tight font-relative  text-center hidden md:block">
               Website designed &
             </p>
 
             
-            <p className="text-9xl font-relative md:block hidden">built faster with AI</p>
+            <p className="text-8xl font-relative md:block hidden">built faster with AI</p>
             <p className="   text-2xl mt-12 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
@@ -303,39 +302,7 @@ export default function Home() {
 
 
 
-            {/* this is responsive data */}
-            <p className="font-relative   text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
-            <p className="font-relative   text-5xl md:hidden text-center block tracking-tight">designed & built </p>
-            <p className="font-relative  text-5xl text-center   md:hidden block tracking-tighter">faster with AI</p>
-            <p className="block md:hidden text-center  pt-4">Use AI as your design ally, not as a replacement . Effortlessly generate sitemaps abd wireframers for marketing websites in minute</p>
-
-      <div className="block md:hidden">
-      <div className="flex items-center justify-center  mt-14 ">
-          <button
-            className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
-      bg-[#e0daff] text-[rgb(98,72,255)] 
-      hover:bg-[rgb(98,72,255)] hover:text-white 
-      transition duration-200"
-          >
-            <Image
-              src={fourstarimage}
-              alt="fourstartimage"
-              width={20}
-              height={20}
-              className="text-[rgb(98,72,255)] "
-            />
-            Shuffle
-          </button>
-
-          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-relative px-5 py-2 ml-4 ">
-            <FaFigma
-              className="mr-2
-"
-            />{" "}
-            <FaWebflow className="mr-2" /> | 1,000+ Components{" "}
-          </button>
-        </div>
-      </div>
+    
             
           </div>
           </motion.div>
@@ -402,7 +369,7 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-56  ">
+<div className="flex items-center ml-12 absolute bottom-14  ">
           <button
             className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
