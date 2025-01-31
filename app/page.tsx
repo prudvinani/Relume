@@ -131,7 +131,7 @@ export default function Home() {
             </p>
 
             <button className="px-4 py-2 text-base
-             rounded-base border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200">
+             rounded-base border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200 rounded-2xl">
               Start for free
             </button>
           </div>
