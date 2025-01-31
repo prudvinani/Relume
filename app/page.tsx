@@ -95,32 +95,32 @@ export default function Home() {
             <Image
               src={relume}
               alt="relume"
-              width={45}
-              height={45}
+              width={40}
+              height={40}
               className="mr-2"
             />
             <Image
               src={relumefonts}
               alt="relumefont"
-              width={90}
+              width={70}
               className="mb-1"
             />
           </div>
 
           <div className="flex items-center space-x-6 font-sans font-medium  ml-9">
-            <p className="flex text-lg  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium tracking-wider  ">
+            <p className="flex text   text-baseitems-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium tracking-wider  ">
               Products <FaAngleDown />
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-lg font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
               Community <FaAngleDown />
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-lg font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
               Pricing
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-lg font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
               Learn
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-lg font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
               Contact Sales
             </p>
           </div>
@@ -183,7 +183,7 @@ export default function Home() {
             <Image
               src={allzakelly}
               alt="allzakelly"
-              width={250}
+              width={200}
               className="ml-3 mb-4 rounded-xl md:block hidden" 
             />
 
@@ -204,7 +204,7 @@ export default function Home() {
 <Image
               src={untillknows}
               alt="untillknows"
-              width={250}
+              width={200}
               className="mb-4 rounded-xl hidden md:block" 
             />
 
@@ -221,7 +221,7 @@ export default function Home() {
             <Image
               src={endtoend}
               alt="endtoend"
-              width={250}
+              width={200}
               className="ml-3 hidden md:block rounded-xl"
             />
 
@@ -298,6 +298,11 @@ export default function Home() {
               sitemaps and wireframes for marketing websites in minutes{" "}
             </p>
 
+       
+
+
+
+       {/* this is moboile responsive */}
 
 
 
@@ -318,7 +323,7 @@ export default function Home() {
             <Image
               src={aeroplane}
               alt="allzakelly"
-              width={250}
+              width={200}
               className="mb-4 hidden md:block "
             />
             {/* <Image
@@ -333,7 +338,7 @@ export default function Home() {
             <Image
               src={refound}
               alt="untillknows"
-              width={250}
+              width={200}
               className="mb-4 hidden  md:block"
             />
             {/* <Image
@@ -345,7 +350,7 @@ export default function Home() {
             <Image
               src={memory}
               alt="endtoend"
-              width={250}
+              width={200}
               className="mr-4 hidden  md:block absolute"
             />
             {/* <Image
