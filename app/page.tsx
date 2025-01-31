@@ -446,7 +446,7 @@ export default function Home() {
           }}
           className=" flex flex-col cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  
         border-[6px] border-b-[12px] border-transparent rounded-2xl
-        relative px-4 py-2  md:w-[850px] 
+        relative px-4 py-3  md:w-[850px] 
       "
         >
           <div >
