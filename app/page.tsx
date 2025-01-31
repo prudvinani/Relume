@@ -75,7 +75,7 @@ export default function Home() {
             }}
           />
         )}
-        <p className="text-white bg-black text-center p-2 text-[12px] md:text-base flex justify-center items-center w-full z-20">
+        <p className="text-white bg-black text-center p-2 text-[12px] md:text-[14px] flex justify-center items-center w-full z-20">
           <Image
             src={reactlogo1}
             alt="reactlogo"
@@ -107,7 +107,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex items-center space-x-4 font-sans font-medium  ml-9">
+          <div className="flex items-center space-x-3 font-sans font-medium  ml-9">
             <p className="flex tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
               Products <FaAngleDown />
             </p>
@@ -284,12 +284,12 @@ export default function Home() {
 
 
 
-            <p className="text-9xl tracking-tight font-relative pt-4  text-center hidden md:block">
+            <p className="text-[100px] tracking-tight font-relative pt-4  text-center hidden md:block">
               Website designed &
             </p>
 
             
-            <p className="text-9xl font-relative md:block hidden">built faster with AI</p>
+            <p className="text-[100px] font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-12 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
@@ -406,7 +406,7 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-32  ">
+<div className="flex items-center ml-12 absolute bottom-36  ">
           <button
             className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
