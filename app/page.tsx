@@ -90,7 +90,7 @@ export default function Home() {
         {/* header component*/}
 
     <div className="hidden md:block">
-    <div className="flex justify-between items-center text-xl pt-5 mx-[45px]  ">
+    <div className="flex justify-between items-center text-xl pt-5 mx-[40px]  ">
           <div className="flex items-center justify-center">
             <Image
               src={relume}
@@ -102,12 +102,12 @@ export default function Home() {
             <Image
               src={relumefonts}
               alt="relumefont"
-              width={68}
+              width={70}
               className="mb-1"
             />
           </div>
 
-          <div className="flex items-center space-x-3 font-sans ml-14 font-medium ">
+          <div className="flex items-center space-x-3 font-sans ml-[50px] font-medium ">
             <p className="flex  tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
               Products <FaAngleDown className="pt-1 ml-1"/>
             </p>
@@ -437,7 +437,7 @@ export default function Home() {
 
   {/* this is related to the laptop version */}
      <div className="hidden md:block">
-     <div className=" md:flex flex flex-col items-center justify-center  hover:bg-[rgba(241,240,238,255)] ">
+     <div className=" md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] ">
         <div
           style={{
             background: `
