@@ -284,7 +284,7 @@ export default function Home() {
 
 
 
-            <p className="text-[120px] tracking-tight font-relative pt-[60px] leading-[25px] text-center hidden md:block">
+            <p className="text-[120px] tracking-tight font-relative pt-[60px] leading-5 text-center hidden md:block">
               Website designed &</p>     
             <p className="text-[120px] font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-6 text-center md:block hidden">
