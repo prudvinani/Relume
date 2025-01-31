@@ -446,14 +446,14 @@ export default function Home() {
           }}
           className=" flex flex-col cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  
         border-[6px] border-b-[12px] border-transparent rounded-2xl
-        relative p-4  md:w-[850px] 
+        relative px-4 py-2  md:w-[850px] 
       "
         >
           <div >
           <input
             type="text"
             placeholder="Describe a company in a sentence or two..."
-            className="w-full p-3 text-gray-600  text-lg md:text-2xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
+            className="w-full p-2 text-gray-600  text-lg md:text-2xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
           />
           </div>
 
