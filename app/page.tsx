@@ -453,7 +453,7 @@ export default function Home() {
           <input
             type="text"
             placeholder="Describe a company in a sentence or two..."
-            className="w-full p-2 text-gray-600  text-lg md:text-2xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
+            className="w-full px-2 py-1 text-gray-600  text-lg md:text-2xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
           />
           </div>
 
@@ -465,7 +465,7 @@ export default function Home() {
           top-1/2 -translate-y-1/2
          text-2xl cursor-pointer"
           >
-            <span className="text-xl">✨</span>
+            <span className="text-lg">✨</span>
             Generate
           </button>
          </div>
