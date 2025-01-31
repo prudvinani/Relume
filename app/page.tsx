@@ -130,8 +130,8 @@ export default function Home() {
               Log in
             </p>
 
-            <button className="px-2 py-1 text-base
-             rounded-xl border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200">
+            <button className="px-4 py-1 text-base
+             rounded-base border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200">
               Start for free
             </button>
           </div>
