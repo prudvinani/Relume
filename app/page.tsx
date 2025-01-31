@@ -107,7 +107,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex items-center space-x-3 font-sans ml-[60px] font-medium ">
+          <div className="flex items-center space-x-3 font-sans ml-[70px] font-medium ">
             <p className="flex  tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
               Products <FaAngleDown className="pt-1 ml-1"/>
             </p>
@@ -250,7 +250,7 @@ export default function Home() {
             <div className="mr-2 mt-2 flex  justify-center rounded-3xl ">
               <div className="flex items-center border-[#e1e0de]  border-2 px-1 md:px-4 py-1 rounded-3xl">
                 <div>
-                  <span className="text-[10px] ml-6 pt-[6px] md:ml-0 md:text-[14px] font-medium rounded-3xl py-1 cursor-pointer">
+                  <span className="text-[10px] ml-6 font-semibold pt-[6px] md:ml-0 md:text-[14px] rounded-3xl py-1 cursor-pointer">
                     <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-orange-500 via-red-500 to-pink-500">
                       400k<span className="text-[#6f4af2]">+</span>
                     </span>
