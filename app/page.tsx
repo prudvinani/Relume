@@ -75,7 +75,7 @@ export default function Home() {
             }}
           />
         )}
-        <p className="text-white bg-black text-center p-2 text-[12px] md:text-[18px] flex justify-center items-center w-full z-20">
+        <p className="text-white bg-black text-center p-2 text-[12px] md:text-base flex justify-center items-center w-full z-20">
           <Image
             src={reactlogo1}
             alt="reactlogo"
@@ -284,12 +284,12 @@ export default function Home() {
 
 
 
-            <p className="text-8xl tracking-tight font-relative  text-center hidden md:block">
+            <p className="text-9xl tracking-tight font-relative pt-4  text-center hidden md:block">
               Website designed &
             </p>
 
             
-            <p className="text-8xl font-relative md:block hidden">built faster with AI</p>
+            <p className="text-9xl font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-12 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
@@ -406,7 +406,7 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-14  ">
+<div className="flex items-center ml-12 absolute bottom-32  ">
           <button
             className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
