@@ -368,7 +368,7 @@ export default function Home() {
               src={refound}
               alt="untillknows"
               width={200}
-              className="mb-4 mr- hidden  md:block"
+              className="mb-4  hidden  md:block"
             />
             {/* <Image
               src={allzakellymobile}
