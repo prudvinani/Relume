@@ -95,24 +95,24 @@ export default function Home() {
             <Image
               src={relume}
               alt="relume"
-              width={30}
-              height={30}
+              width={35}
+              height={35}
               className="mr-2"
             />
             <Image
               src={relumefonts}
               alt="relumefont"
-              width={70}
+              width={60}
               className="mb-1"
             />
           </div>
 
-          <div className="flex items-center space-x-3 font-sans font-medium  ml-9">
-            <p className="flex tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
-              Products <FaAngleDown />
+          <div className="flex items-center space-x-3 font-sans font-medium ">
+            <p className="flex  tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
+              Products <FaAngleDown className="pt-1"/>
             </p>
             <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium  tracking-tight">
-              Community <FaAngleDown />
+              Community <FaAngleDown className="pt-1" />
             </p>
             <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium  tracking-tight">
               Pricing
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center">
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl mr-2">
+            <p className="flex items-center p-2 text-base hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl mr-2">
               Log in
             </p>
 
@@ -250,7 +250,7 @@ export default function Home() {
             <div className="mr-2 mt-2 flex  justify-center rounded-3xl ">
               <div className="flex items-center border-[#e1e0de]  border-2 px-1 md:px-4 py-1 rounded-3xl">
                 <div>
-                  <span className="text-[10px] ml-6 md:ml-0 md:text-base font-medium rounded-3xl py-1 cursor-pointer">
+                  <span className="text-[10px] ml-6 md:ml-0 md:text-[14px] font-medium rounded-3xl py-1 cursor-pointer">
                     <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-orange-500 via-red-500 to-pink-500">
                       400k<span className="text-[#6f4af2]">+</span>
                     </span>
@@ -284,7 +284,7 @@ export default function Home() {
 
 
 
-            <p className="text-[100px] tracking-tight font-relative pt-10 leading-5  text-center hidden md:block">
+            <p className="text-[100px] tracking-tight font-relative pt-14 leading-5  text-center hidden md:block">
               Website designed &</p>     
             <p className="text-[100px] font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-6 text-center md:block hidden">
@@ -403,7 +403,7 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-[200px]  ">
+<div className="flex items-center ml-12 absolute bottom-[180px]  ">
           <button
             className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
