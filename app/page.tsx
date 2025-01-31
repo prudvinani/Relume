@@ -436,7 +436,8 @@ export default function Home() {
 
 
   {/* this is related to the laptop version */}
-      <div className=" md:flex flex flex-col items-center justify-center  hover:bg-[rgba(241,240,238,255)] ">
+     <div className="hidden md:block">
+     <div className=" md:flex flex flex-col items-center justify-center  hover:bg-[rgba(241,240,238,255)] ">
         <div
           style={{
             background: `
@@ -472,6 +473,7 @@ export default function Home() {
         </div>
       </div>
 
+     </div>
 
 
    
