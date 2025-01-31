@@ -58,7 +58,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="font-relative bg-[rgba(241,240,238,255)] hover:bg-[rgba(242,239,255,255)]  "
+      <div className="font-relative bg-[rgba(241,240,238,255)] h-[550px] hover:bg-[rgba(242,239,255,255)]  "
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
@@ -284,9 +284,9 @@ export default function Home() {
 
 
 
-            <p className="text-[110px] tracking-tight font-relative pt-[60px] leading-5 text-center hidden md:block">
+            <p className="text-[102px] tracking-tight font-relative pt-[60px] leading-5 text-center hidden md:block">
               Website designed &</p>     
-            <p className="text-[110px] font-relative md:block hidden">built faster with AI</p>
+            <p className="text-[102px] font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-6 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
