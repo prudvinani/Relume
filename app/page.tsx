@@ -284,10 +284,10 @@ export default function Home() {
 
 
 
-            <p className="text-[100px] tracking-tight font-relative pt-4 leading-5  text-center hidden md:block">
+            <p className="text-[100px] tracking-tight font-relative pt-10 leading-5  text-center hidden md:block">
               Website designed &</p>     
             <p className="text-[100px] font-relative md:block hidden">built faster with AI</p>
-            <p className="   text-xl mt-12 text-center md:block hidden">
+            <p className="   text-xl mt-6 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
             </p>
@@ -403,7 +403,7 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-48  ">
+<div className="flex items-center ml-12 absolute bottom-[200px]  ">
           <button
             className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
