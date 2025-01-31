@@ -108,7 +108,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center space-x-3 font-sans ml-[70px] font-medium ">
-            <p className="flex  tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
+            <p className="flex  tracking-tight text text-base ml-4  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
               Products <FaAngleDown className="pt-1 ml-1"/>
             </p>
             <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium  tracking-tight">
