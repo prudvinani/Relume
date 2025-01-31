@@ -107,20 +107,20 @@ export default function Home() {
             />
           </div>
 
-          <div className="flex items-center space-x-6 font-sans font-medium  ml-9">
-            <p className="flex text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium tracking-wider  ">
+          <div className="flex items-center space-x-4 font-sans font-medium  ml-9">
+            <p className="flex tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
               Products <FaAngleDown />
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium  tracking-tight">
               Community <FaAngleDown />
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium  tracking-tight">
               Pricing
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-tight">
               Learn
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-tightc">
               Contact Sales
             </p>
           </div>
@@ -247,11 +247,10 @@ export default function Home() {
             }}>
 
            
-          <div >
             <div className="mr-2 mt-2 flex  justify-center rounded-3xl ">
               <div className="flex items-center border-[#e1e0de]  border-2 px-1 md:px-4 py-1 rounded-3xl">
                 <div>
-                  <span className="text-[10px] ml-6 md:ml-0 md:text-[20px] font-medium rounded-3xl py-1 cursor-pointer">
+                  <span className="text-[10px] ml-6 md:ml-0 md:text-base font-medium rounded-3xl py-1 cursor-pointer">
                     <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-orange-500 via-red-500 to-pink-500">
                       400k<span className="text-[#6f4af2]">+</span>
                     </span>
@@ -291,11 +290,11 @@ export default function Home() {
 
             
             <p className="text-8xl font-relative md:block hidden">built faster with AI</p>
-            <p className="   text-2xl mt-12 text-center md:block hidden">
+            <p className="   text-xl mt-12 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
             </p>
-            <p className=" text-2xl  text-center md:block hidden">
+            <p className=" text-xl  text-center md:block hidden">
               sitemaps and wireframes for marketing websites in minutes{" "}
             </p>
 
@@ -307,11 +306,43 @@ export default function Home() {
 
 
 
+          {/* this is responsive data */}
+            <p className="font-relative   text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
+            <p className="font-relative   text-5xl md:hidden text-center block tracking-tight">designed & built </p>
+            <p className="font-relative  text-5xl text-center   md:hidden block tracking-tighter">faster with AI</p>
+            <p className="block md:hidden text-center  pt-4">Use AI as your design ally, not as a replacement . Effortlessly generate sitemaps abd wireframers for marketing websites in minute</p>
 
+      <div className="block md:hidden">
+      <div className="flex items-center justify-center  mt-14 ">
+          <button
+            className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
+      bg-[#e0daff] text-[rgb(98,72,255)] 
+      hover:bg-[rgb(98,72,255)] hover:text-white 
+      transition duration-200"
+          >
+            <Image
+              src={fourstarimage}
+              alt="fourstartimage"
+              width={20}
+              height={20}
+              className="text-[rgb(98,72,255)] "
+            />
+            Shuffle
+          </button>
+
+          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-relative px-5 py-2 ml-4 ">
+            <FaFigma
+              className="mr-2
+"
+            />{" "}
+            <FaWebflow className="mr-2" /> | 1,000+ Components{" "}
+          </button></div>
     
             
           </div>
           </motion.div>
+
+          
 
           {/* Third section - Images that move left */}
           <motion.div
