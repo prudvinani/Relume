@@ -79,8 +79,8 @@ export default function Home() {
           <Image
             src={reactlogo1}
             alt="reactlogo"
-            width={20}
-            height={20}
+            width={15}
+            height={15}
             className="mr-2"
           />
           Export your site to React
