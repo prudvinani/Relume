@@ -284,11 +284,8 @@ export default function Home() {
 
 
 
-            <p className="text-[100px] tracking-tight font-relative pt-4  text-center hidden md:block">
-              Website designed &
-            </p>
-
-            
+            <p className="text-[100px] tracking-tight font-relative pt-4 leading-5  text-center hidden md:block">
+              Website designed &</p>     
             <p className="text-[100px] font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-12 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
@@ -356,7 +353,7 @@ export default function Home() {
               src={aeroplane}
               alt="allzakelly"
               width={200}
-              className="mb-4 hidden md:block "
+              className="mb-4 mr-5 hidden md:block "
             />
             {/* <Image
               src={aeroplanemobile}
@@ -383,7 +380,7 @@ export default function Home() {
               src={memory}
               alt="endtoend"
               width={200}
-              className="mr-4 hidden  md:block absolute"
+              className="mr-5 hidden  md:block absolute"
             />
             {/* <Image
               src={allzakellymobile}
@@ -406,7 +403,7 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-52  ">
+<div className="flex items-center ml-12 absolute bottom-48  ">
           <button
             className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
