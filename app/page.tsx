@@ -131,7 +131,7 @@ export default function Home() {
             </p>
 
             <button className="px-4 py-2 text-base
-             rounded-base border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200 rounded-2xl">
+             rounded-base border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200 rounded-xl">
               Start for free
             </button>
           </div>
@@ -251,7 +251,7 @@ export default function Home() {
               <div className="flex items-center border-[#e1e0de]  border-2 px-1 md:px-4 py-1 rounded-3xl">
                 <div>
                   <span className="text-[10px] ml-6 font-semibold pt-[6px] md:ml-0 md:text-[14px] rounded-3xl py-1 cursor-pointer">
-                    <span className="relative bg-clip-text text-transparent bg-gradient-to-r from-orange-500 via-red-500 to-pink-500">
+                    <span className="relative bg-clip-text font-semibold text-transparent bg-gradient-to-r from-orange-500 via-red-500 to-pink-500">
                       400k<span className="text-[#6f4af2]">+</span>
                     </span>
                     <span className="text-gray-800 ml-2">
