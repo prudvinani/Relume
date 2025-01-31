@@ -102,12 +102,12 @@ export default function Home() {
             <Image
               src={relumefonts}
               alt="relumefont"
-              width={60}
+              width={65}
               className="mb-1"
             />
           </div>
 
-          <div className="flex items-center space-x-3 font-sans font-medium ">
+          <div className="flex items-center space-x-3 font-sans ml-10 font-medium ">
             <p className="flex  tracking-tight text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
               Products <FaAngleDown className="pt-1"/>
             </p>
@@ -436,7 +436,7 @@ export default function Home() {
 
 
   {/* this is related to the laptop version */}
-      <div className=" md:flex flex flex-col items-center justify-center pt-8 hover:s bg-[rgba(241,240,238,255)] ">
+      <div className=" md:flex flex flex-col items-center justify-center  hover:s bg-[rgba(241,240,238,255)] ">
         <div
           style={{
             background: `
