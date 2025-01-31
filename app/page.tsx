@@ -90,13 +90,13 @@ export default function Home() {
         {/* header component*/}
 
     <div className="hidden md:block">
-    <div className="flex justify-between items-center text-xl pt-8 mx-[50px]  ">
+    <div className="flex justify-between items-center text-xl pt-5 mx-[50px]  ">
           <div className="flex items-center justify-center">
             <Image
               src={relume}
               alt="relume"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
               className="mr-2"
             />
             <Image
@@ -108,7 +108,7 @@ export default function Home() {
           </div>
 
           <div className="flex items-center space-x-6 font-sans font-medium  ml-9">
-            <p className="flex text   text-baseitems-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium tracking-wider  ">
+            <p className="flex text text-base  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium tracking-wider  ">
               Products <FaAngleDown />
             </p>
             <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-wider">
@@ -130,7 +130,8 @@ export default function Home() {
               Log in
             </p>
 
-            <button className="px-4 py-2 rounded-xl border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200">
+            <button className="px-2 py-1 text-base
+             rounded-xl border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200">
               Start for free
             </button>
           </div>
