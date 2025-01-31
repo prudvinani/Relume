@@ -58,7 +58,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="font-relative bg-[rgba(241,240,238,255)] h-[650px] hover:bg-[rgba(242,239,255,255)]  "
+      <div className="font-relative bg-[rgba(241,240,238,255)] hover:bg-[rgba(242,239,255,255)]  "
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
@@ -284,9 +284,9 @@ export default function Home() {
 
 
 
-            <p className="text-[100px] tracking-tight font-relative pt-14 leading-5  text-center hidden md:block">
+            <p className="text-[120px] tracking-tight font-relative pt-[60px] leading-[25px] text-center hidden md:block">
               Website designed &</p>     
-            <p className="text-[100px] font-relative md:block hidden">built faster with AI</p>
+            <p className="text-[120px] font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-6 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
@@ -403,9 +403,9 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-[180px]  ">
+<div className="flex items-center ml-12 absolute bottom-[175px]  ">
           <button
-            className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
+            className=" flex px-4 py-1 rounded-md text-base font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
       hover:bg-[rgb(98,72,255)] hover:text-white 
       transition duration-200"
@@ -420,7 +420,7 @@ export default function Home() {
             Shuffle
           </button>
 
-          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-relative px-5 py-2 ml-4 ">
+          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-relative px-5 py-2 ml-3 ">
             <FaFigma
               className="mr-2
 "
