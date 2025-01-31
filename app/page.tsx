@@ -310,7 +310,7 @@ export default function Home() {
             <p className="font-relative   text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
             <p className="font-relative   text-5xl md:hidden text-center block tracking-tight">designed & built </p>
             <p className="font-relative  text-5xl text-center   md:hidden block tracking-tighter">faster with AI</p>
-            <p className="block md:hidden text-center  pt-4">Use AI as your design ally, not as a replacement . Effortlessly generate sitemaps abd wireframers for marketing websites in minute</p>
+            <p className="block md:hidden text-center mx-5  pt-4">Use AI as your design ally, not as a replacement . Effortlessly generate sitemaps abd wireframers for marketing websites in minute</p>
 
       <div className="block md:hidden">
       <div className="flex items-center justify-center  mt-14 ">
@@ -371,7 +371,7 @@ export default function Home() {
               src={refound}
               alt="untillknows"
               width={200}
-              className="mb-4 hidden  md:block"
+              className="mb-4 mr- hidden  md:block"
             />
             {/* <Image
               src={allzakellymobile}
@@ -406,7 +406,7 @@ export default function Home() {
         {/* this is the bottom button component */}
 <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-36  ">
+<div className="flex items-center ml-12 absolute bottom-52  ">
           <button
             className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
