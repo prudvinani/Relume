@@ -158,7 +158,7 @@ export default function Home() {
         )}
 
         <motion.div
-          className="flex -z-10 justify-between min-h-[600px] mt-5"
+          className="flex relative justify-between min-h-[600px] mt-5"
           onHoverStart={() => setIsHovered(true)}
           onHoverEnd={() => setIsHovered(false)}
         >
@@ -305,10 +305,7 @@ export default function Home() {
             <FaWebflow className="mr-2" /> | 1,000+ Components
           </button>
         </div>
-      </div>
-
-      {/* this is related to the laptop version */}
-      <div className="hidden md:block">
+        <div className="hidden md:block">
         <div className="md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] h-[150px]">
           <div
             style={{
@@ -343,6 +340,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </div>
+
+      {/* this is related to the laptop version */}
+    
     </div>
   )
 }
