@@ -73,7 +73,7 @@ export default function Home() {
 
         {/* header component*/}
         <div className="hidden md:block">
-          <div className="flex justify-between items-center text-xl pt-5 mx-[40px]">
+          <div className="flex justify-between items-center text-xl pt-5 mx-[40px] mb-3">
             <div className="flex items-center justify-center">
               <Image src={relume || "/placeholder.svg"} alt="relume" width={35} height={35} className="mr-2" />
               <Image src={relumefonts || "/placeholder.svg"} alt="relumefont" width={70} className="mb-1" />
@@ -158,7 +158,7 @@ export default function Home() {
         )}
 
 <motion.div
-          className="flex -z-10 justify-between  min-h-[600px] mt-5"
+          className="flex -z-10 justify-between   "
           
           onHoverStart={() => setIsHovered(true)}
           onHoverEnd={() => setIsHovered(false)}
@@ -175,10 +175,6 @@ export default function Home() {
               width={200}
               className="ml-3 mb-4 rounded-xl md:block hidden" 
             />
-
-
-
-
 
 
 <Image
@@ -381,7 +377,7 @@ export default function Home() {
 
         <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-[200px]  ">
+<div className="flex items-center ml-12 absolute bottom-[210px]  ">
           <button
             className=" flex px-3 rounded-md items-center text-sm font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
