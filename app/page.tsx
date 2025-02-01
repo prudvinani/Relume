@@ -58,11 +58,11 @@ export default function Home() {
 
   return (
     <div>
-      <div className="font-relative bg-[rgba(241,240,238,255)] h-[550px] hover:bg-[rgba(242,239,255,255)]  "
+      <div className="font-relative  bg-[rgba(241,240,238,255)] h-[1200px] md:h-[550px] hover:bg-[rgba(242,239,255,255)]  "
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
-      style={{ cursor: "none" }} // Hide the default cursor  >
+      style={{ cursor: "none" }} 
       >
           {isHovering && (
           <Image
@@ -166,7 +166,7 @@ export default function Home() {
 
     </div>
 
-        {/* middle */}
+ 
 <div>
     
 <motion.div
@@ -188,15 +188,6 @@ export default function Home() {
               className="ml-3 mb-4 rounded-xl md:block hidden" 
             />
 
-{/* <Image
-              src={allzakellymobile}
-              alt="allzakelly"
-              width={40}
-              className=" mb-8 rounded-xl block md:hidden" 
-            /> */}
-            {/* <Image src={jessica} alt="jessica" width={100} className="mb-5 ml-200 rounded-xl "/> */}
-            
-
 
 
 
@@ -210,14 +201,6 @@ export default function Home() {
             />
 
 
-{/* <Image
-              src={untillknowmobile}
-              alt="untillknows"
-              width={40}
-              className="mb-16   mr-14 block md:hidden   rounded-xl"
-            /> */}
-
-
 
             <Image
               src={endtoend}
@@ -226,12 +209,7 @@ export default function Home() {
               className="ml-3 hidden md:block rounded-xl"
             />
 
-{/* <Image
-              src={endtoendmobile}
-              alt="untillknows"
-              width={40}
-              className="mb-4 rounded-xl block md:hidden" 
-            /> */}
+
 
 
 
@@ -348,20 +326,13 @@ export default function Home() {
             animate={isHovered ? { x: -40 } : { x: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
           >
-            {/* <Image src={mario} alt="mario" width={100} className="mr-16"/> */}
             <Image
               src={aeroplane}
               alt="allzakelly"
               width={200}
               className="mb-4 mr-5 hidden md:block "
             />
-            {/* <Image
-              src={aeroplanemobile}
-              alt="allzakelly"
-              width={40}
-              className=" mb-4 rounded-xl block md:hidden" 
-            /> */}
-
+          
 
 
             <Image
@@ -370,24 +341,14 @@ export default function Home() {
               width={200}
               className="mb-4  hidden  md:block"
             />
-            {/* <Image
-              src={allzakellymobile}
-              alt="allzakelly"
-              width={50}
-              className=" mb-4 rounded-xl block md:hidden" 
-            /> */}
+           
             <Image
               src={memory}
               alt="endtoend"
               width={200}
               className="mr-5 hidden  md:block absolute"
             />
-            {/* <Image
-              src={allzakellymobile}
-              alt="allzakelly"
-              width={50}
-              className=" mb-4 rounded-xl block md:hidden" 
-            /> */}
+          
           </motion.div>
         </motion.div>
 </div>
@@ -437,13 +398,12 @@ export default function Home() {
 
   {/* this is related to the laptop version */}
      <div className="hidden md:block">
-     <div className=" md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] ">
+     <div className=" md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] h-[200px] ">
         <div
           style={{
             background: `
           linear-gradient(white, white) padding-box,
-          linear-gradient(to right, #FF5D5D, #6366F1) border-box
-        `,
+          linear-gradient(to right, #FF5D5D, #6366F1) border-box`,
           }}
           className=" flex flex-col cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  
         border-[6px] border-b-[12px] border-transparent rounded-2xl
