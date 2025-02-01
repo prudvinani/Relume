@@ -1,9 +1,4 @@
 "use client";
-
-
-
-
-
 import Image from "next/image";
 import fourstarimage from "@/public/fourstarimage.png";
 import reactlogo1 from "@/public/reactlogo1.png";
@@ -23,14 +18,15 @@ import refound from "@/public/refound.png";
 import { FaFigma } from "react-icons/fa6";
 import { FaWebflow } from "react-icons/fa6";
 import memory from "@/public/memory.png";
-
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { FiMenu, FiX } from "react-icons/fi"; // Importing menu and cancel icons
 
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 })
   const [isHovering, setIsHovering] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     
@@ -160,7 +156,15 @@ export default function Home() {
            </div>
 
 
-<div><IoMenu/></div>
+           <div className="md:hidden ">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            {isMenuOpen ? (
+              <FiX className="text-xl" /> // Cancel icon
+            ) : (
+              <FiMenu className="text-xl" /> // Menu icon
+            )}
+          </button>
+        </div>
 
           </div>
 
