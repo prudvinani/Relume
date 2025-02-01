@@ -270,10 +270,12 @@ export default function Home() {
 
 
           {/* this is responsive data */}
-            <p className="font-relative   text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
-            <p className="font-relative   text-5xl md:hidden text-center block tracking-tight">designed & built </p>
-            <p className="font-relative  text-5xl text-center   md:hidden block tracking-tighter">faster with AI</p>
-            <p className="block md:hidden text-center mx-5  pt-4">Use AI as your design ally, not as a replacement . Effortlessly generate sitemaps abd wireframers for marketing websites in minute</p>
+      <div className="flex flex-col justify-center items-center">
+      <p className="font-relative   text-5xl  md:hidden block tracking-tight mt-3">Website</p>
+            <p className="font-relative  text-5xl md:hidden  block tracking-tight">designed & built</p>
+            <p className="font-relative    text-5xl    md:hidden block tracking-tighter">faster with AI</p>
+      </div>
+            <p className="block md:hidden  px-12  pt-4">Use AI as your design ally, not as a replacement  wireframers for marketing websites in minute</p>
 
       <div className="block md:hidden">
       <div className="flex items-center justify-center  mt-14 ">
@@ -311,7 +313,7 @@ export default function Home() {
           linear-gradient(white, white) padding-box,
           linear-gradient(to right, #FF5D5D, #6366F1) border-box`,
           }}
-          className=" mt-10 flex  cursor-pointer hover:scale-105  transition-transform duration-300 ease-in-out  
+          className=" mt-10 w-[350px] flex flex-col cursor-pointer hover:scale-105  transition-transform duration-300 ease-in-out  
         border-[6px] border-b-[12px] border-transparent rounded-2xl
         relative px-4 py-3   mx-10  h-[150px]
       " >
@@ -321,14 +323,14 @@ export default function Home() {
             </textarea>
 
             <button
-            className="
-          bg-[#6366F1] text-sm text-white px-4 py-2 rounded-lg  
-          flex items-center gap-2 absolute right-4 
-          top-1/2 -translate-y-1/2
-          cursor-pointer mr-14 mt-7"
+            className=" w-full
+          bg-[#6366F1] text-sm text-white  py-2 rounded-lg  
+          
+         
+          cursor-pointer mt-10 "
           >
-            <span className="text-lg">✨</span>
-            Generate
+            
+            ✨ Generate
           </button>
           </div>
 
