@@ -131,7 +131,7 @@ export default function Home() {
         {isMenuOpen && (
           <div className="fixed inset-0 bg-white z-50 px-7 pt-6">
             <div className="flex justify-between items-center mb-6">
-              <div className="flex items-center pt-3">
+              <div className="flex items-center mt-4">
                 <Image src={relume || "/placeholder.svg"} alt="relume" width={30} height={30} className="mr-2" />
                 <Image src={relumefonts || "/placeholder.svg"} alt="relumefont" width={70} className="mb-1" />
               </div>
