@@ -366,7 +366,7 @@ export default function Home() {
   
 <div className="flex items-center ml-12 absolute bottom-[175px]  ">
           <button
-            className=" flex px-4 py-1 rounded-md text-sm font-normal font-relative tracking-wide
+            className=" flex px-3 py-1 rounded-md text-sm font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
       hover:bg-[rgb(98,72,255)] hover:text-white 
       transition duration-200"
@@ -381,7 +381,7 @@ export default function Home() {
             Shuffle
           </button>
 
-          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-[14px] justify-center  items-center  rounded-3xl font-relative px-5 py-1 ml-3 ">
+          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-[14px] justify-center  items-center  rounded-3xl font-relative px-5 py-[2px] ml-3 ">
             <FaFigma
               className="mr-2
 "
