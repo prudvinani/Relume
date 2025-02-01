@@ -58,7 +58,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="font-open-sans  bg-[rgba(241,240,238,255)] h-[1200px] md:h-[550px] hover:bg-[rgba(242,239,255,255)]  "
+      <div className="font-relative  bg-[rgba(241,240,238,255)] h-[1200px] md:h-[550px] hover:bg-[rgba(242,239,255,255)]  "
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
@@ -108,19 +108,19 @@ export default function Home() {
           </div>
 
           <div className="flex items-center space-x-3 font-sans ml-[70px] font-medium ">
-            <p className="flex  tracking-tight text text-base ml-50  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-open-sans font-medium  ">
+            <p className="flex  tracking-tight text text-base ml-50  items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative font-medium  ">
               Products <FaAngleDown className="pt-1 ml-1"/>
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-open-sans text-base font-medium  tracking-tight">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium  tracking-tight">
               Community <FaAngleDown className="pt-1 ml-1" />
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-open-sans text-base font-medium  tracking-tight">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium  tracking-tight">
               Pricing
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-open-sans text-base font-medium tracking-tight">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-tight">
               Learn
             </p>
-            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-open-sans text-base font-medium tracking-tightc">
+            <p className="flex items-center p-2 hover:bg-[rgba(232,228,243,255)] cursor-pointer hover:rounded-xl font-relative text-base font-medium tracking-tightc">
               Contact Sales
             </p>
           </div>
@@ -131,7 +131,7 @@ export default function Home() {
             </p>
 
             <button className="px-4 py-2 text-base
-             rounded-base border border-neutral-600 text-white bg-black font-open-sans font-semibold tracking-wider transition duration-200 rounded-xl">
+             rounded-base border border-neutral-600 text-white bg-black font-relative font-semibold tracking-wider transition duration-200 rounded-xl">
               Start for free
             </button>
           </div>
@@ -262,9 +262,9 @@ export default function Home() {
 
 
 
-            <p className="text-[102px] tracking-tight font-open-sans pt-[60px] leading-[25px] text-center hidden md:block">
+            <p className="text-[102px] tracking-tight font-relative pt-[60px] leading-[25px] text-center hidden md:block">
               Website designed &</p>     
-            <p className="text-[102px] font-open-sans md:block hidden">built faster with AI</p>
+            <p className="text-[102px] font-relative md:block hidden">built faster with AI</p>
             <p className="   text-xl mt-6 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
@@ -282,15 +282,15 @@ export default function Home() {
 
 
           {/* this is responsive data */}
-            <p className="font-sans   text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
-            <p className="font-open-sans   text-5xl md:hidden text-center block tracking-tight">designed & built </p>
-            <p className="font-open-sans  text-5xl text-center   md:hidden block tracking-tighter">faster with AI</p>
+            <p className="font-relative   text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
+            <p className="font-relative   text-5xl md:hidden text-center block tracking-tight">designed & built </p>
+            <p className="font-relative  text-5xl text-center   md:hidden block tracking-tighter">faster with AI</p>
             <p className="block md:hidden text-center mx-5  pt-4">Use AI as your design ally, not as a replacement . Effortlessly generate sitemaps abd wireframers for marketing websites in minute</p>
 
       <div className="block md:hidden">
       <div className="flex items-center justify-center  mt-14 ">
           <button
-            className=" flex px-4 py-1 rounded-md text-lg font-normal font-open-sans tracking-wide
+            className=" flex px-4 py-1 rounded-md text-lg font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
       hover:bg-[rgb(98,72,255)] hover:text-white 
       transition duration-200"
@@ -305,7 +305,7 @@ export default function Home() {
             Shuffle
           </button>
 
-          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-open-sans px-5 py-2 ml-4 ">
+          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-relative px-5 py-2 ml-4 ">
             <FaFigma
               className="mr-2
 "
@@ -366,7 +366,7 @@ export default function Home() {
   
 <div className="flex items-center ml-12 absolute bottom-[175px]  ">
           <button
-            className=" flex px-4 py-1 rounded-md text-base font-normal font-open-sans tracking-wide
+            className=" flex px-4 py-1 rounded-md text-base font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
       hover:bg-[rgb(98,72,255)] hover:text-white 
       transition duration-200"
@@ -381,7 +381,7 @@ export default function Home() {
             Shuffle
           </button>
 
-          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-open-sans px-5 py-2 ml-3 ">
+          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-relative px-5 py-2 ml-3 ">
             <FaFigma
               className="mr-2
 "
