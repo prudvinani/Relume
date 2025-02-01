@@ -398,7 +398,7 @@ export default function Home() {
 
   {/* this is related to the laptop version */}
      <div className="hidden md:block">
-     <div className=" md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] h-[200px] ">
+     <div className=" md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] h-[150px] ">
         <div
           style={{
             background: `
