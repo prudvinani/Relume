@@ -10,7 +10,12 @@ export default {
     extend: {
 
       fontFamily: {
-        relative: ['Relative', 'sans-serif']
+        // relative: ['Relative', 'sans-serif'],
+        
+        relative: ["Relative", "sans-serif"],
+        "open-sans": ["var(--font-open-sans)"],
+        geist: ["var(--font-geist-sans)"],
+        
       },
       colors: {
         background: "var(--background)",
