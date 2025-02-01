@@ -305,12 +305,13 @@ export default function Home() {
           </div>
 
 {/* this is linear gradient */}
-          <div  style={{
+      <div className="block md:hidden">
+      <div  style={{
             background: `
           linear-gradient(white, white) padding-box,
           linear-gradient(to right, #FF5D5D, #6366F1) border-box`,
           }}
-          className=" mt-10 flex  cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  
+          className=" mt-10 flex  cursor-pointer hover:scale-105  transition-transform duration-300 ease-in-out  
         border-[6px] border-b-[12px] border-transparent rounded-2xl
         relative px-4 py-3   mx-10  h-[150px]
       " >
@@ -331,6 +332,7 @@ export default function Home() {
           </button>
           </div>
 
+      </div>
 
 
 
