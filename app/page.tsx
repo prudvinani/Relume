@@ -20,7 +20,7 @@ import { FaWebflow } from "react-icons/fa6";
 import memory from "@/public/memory.png";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { FiMenu, FiX } from "react-icons/fi"; // Importing menu and cancel icons
+import { FiMenu, FiX } from "react-icons/fi"; 
 
 export default function Home() {
   const [isHovered, setIsHovered] = useState(false);
@@ -161,7 +161,7 @@ export default function Home() {
             {isMenuOpen ? (
               <FiX className="text-xl" /> // Cancel icon
             ) : (
-              <FiMenu className="text-xl" /> // Menu icon
+              <IoMenu className="text-xl" /> // Menu icon
             )}
           </button>
         </div>
