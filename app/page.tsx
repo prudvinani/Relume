@@ -303,6 +303,38 @@ export default function Home() {
     
             
           </div>
+
+{/* this is linear gradient */}
+          <div  style={{
+            background: `
+          linear-gradient(white, white) padding-box,
+          linear-gradient(to right, #FF5D5D, #6366F1) border-box`,
+          }}
+          className=" mt-10 flex  cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  
+        border-[6px] border-b-[12px] border-transparent rounded-2xl
+        relative px-4 py-3   mx-10  h-[150px]
+      " >
+
+            <textarea name="" placeholder="Describe a company " id="" className=" text-gray-600" >
+        
+            </textarea>
+
+            <button
+            className="
+          bg-[#6366F1] text-sm text-white px-4 py-2 rounded-lg  
+          flex items-center gap-2 absolute right-4 
+          top-1/2 -translate-y-1/2
+          cursor-pointer mr-14 mt-7"
+          >
+            <span className="text-lg">✨</span>
+            Generate
+          </button>
+          </div>
+
+
+
+
+
           </motion.div>
 
           
