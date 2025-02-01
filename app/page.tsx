@@ -56,9 +56,9 @@ export default function Home() {
       >
         {isHovering && (
           <Image
-            src={guest || "/placeholder.svg"}
+            src={guest}
             alt="Custom cursor"
-            className="pointer-events-none absolute"
+            className="pointer-events-none absolute z-30"
             style={{
               transform: `translate(${position.x}px, ${position.y}px)`,
               transition: "transform 0.05s ease",
@@ -112,16 +112,16 @@ export default function Home() {
         <div className="md:hidden block">
           <div className="flex items-center justify-between mx-3 mt-3 md:hidden">
             <div className="flex items-center">
-              <Image src={relume || "/placeholder.svg"} alt="relume" width={30} height={30} className="mr-2" />
-              <Image src={relumefonts || "/placeholder.svg"} alt="relumefont" width={70} className="mb-1" />
+              <Image src={relume } alt="relume" width={30} height={30} className="mr-2" />
+              <Image src={relumefonts} alt="relumefont" width={70} className="mb-1" />
             </div>
 
             <div className="md:hidden">
               <button onClick={toggleMenu}>
                 {isMenuOpen ? (
-                  <FiX className="text-2xl" /> // X icon when menu is open
+                  <FiX className="text-2xl" />
                 ) : (
-                  <IoMenu className="text-2xl" /> // Menu icon when menu is closed
+                  <IoMenu className="text-2xl" /> 
                 )}
               </button>
             </div>
@@ -163,7 +163,7 @@ export default function Home() {
           onHoverStart={() => setIsHovered(true)}
           onHoverEnd={() => setIsHovered(false)}
         >
-          {/* First section - Images that move right */}
+        
           <motion.div
             animate={isHovered ? { x: 40 } : { x: 0 }}
             
@@ -381,7 +381,7 @@ export default function Home() {
 
         <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-[175px]  ">
+<div className="flex items-center ml-12 absolute bottom-[200px]  ">
           <button
             className=" flex px-3 rounded-md items-center text-sm font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
