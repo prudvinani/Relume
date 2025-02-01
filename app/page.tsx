@@ -366,7 +366,7 @@ export default function Home() {
   
 <div className="flex items-center ml-12 absolute bottom-[175px]  ">
           <button
-            className=" flex px-3 rounded-md text-sm font-normal font-relative tracking-wide
+            className=" flex px-3 rounded-md items-center text-sm font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
       hover:bg-[rgb(98,72,255)] hover:text-white 
       transition duration-200"
