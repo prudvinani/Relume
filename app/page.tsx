@@ -326,12 +326,7 @@ export default function Home() {
 
             
 
-<motion.div   initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-                duration: 0.4,
-                scale: { type: "spring", visualDuration: 0.4, bounce: 0.2 },
-            }}>
+
 
         
           <Image
@@ -341,7 +336,7 @@ export default function Home() {
               className="mb-4 mr-5 hidden md:block "
             />
           
-          </motion.div>
+      
           
 
 
