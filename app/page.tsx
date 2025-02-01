@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <div>
       <div
-        className="font-relative overflow-x-hidden bg-[rgba(241,240,238,255)] h-[1200px] md:h-[550px] hover:bg-[rgba(242,239,255,255)]"
+        className="font-relative overflow-x-hidden bg-[rgba(241,240,238,255)]  md:h-[500px] hover:bg-[rgba(242,239,255,255)]"
         onMouseMove={handleMouseMove}
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
@@ -157,50 +157,72 @@ export default function Home() {
           </div>
         )}
 
-        <motion.div
-          className="flex relative justify-between h-[1500px]  mt-5"
+<motion.div
+          className="flex -z-10 justify-between  min-h-[600px] mt-5"
+          
           onHoverStart={() => setIsHovered(true)}
           onHoverEnd={() => setIsHovered(false)}
         >
           {/* First section - Images that move right */}
-          <motion.div animate={isHovered ? { x: 40 } : { x: 0 }} transition={{ duration: 0.3, ease: "easeOut" }}>
+          <motion.div
+            animate={isHovered ? { x: 40 } : { x: 0 }}
+            
+            transition={{ duration: 0.3, ease: "easeOut" }}
+          >
             <Image
-              src={allzakelly || "/placeholder.svg"}
+              src={allzakelly}
               alt="allzakelly"
               width={200}
-              className="ml-3 mb-4 rounded-xl md:block hidden"
+              className="ml-3 mb-4 rounded-xl md:block hidden" 
             />
-            <Image
-              src={untillknows || "/placeholder.svg"}
+
+
+
+
+
+
+<Image
+              src={untillknows}
               alt="untillknows"
               width={200}
-              className="mb-4 rounded-xl hidden md:block"
+              className="mb-4 rounded-xl hidden md:block" 
             />
+
+
+
             <Image
-              src={endtoend || "/placeholder.svg"}
+              src={endtoend}
               alt="endtoend"
               width={200}
               className="ml-3 hidden md:block rounded-xl"
             />
+
+
+
+
+
           </motion.div>
 
           {/* Middle section - Information */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
+
+          <motion.div   initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
-              duration: 0.4,
-              scale: { type: "spring", visualDuration: 0.4, bounce: 0.2 },
-            }}
-          >
-            <div className="mr-2 mt-2 flex justify-center rounded-3xl">
-              <div className="flex items-center border-[#e1e0de] border-2 px-1 md:px-4 py-1 rounded-3xl">
+                duration: 0.4,
+                scale: { type: "spring", visualDuration: 0.4, bounce: 0.2 },
+            }}>
+
+           
+            <div className="mr-2 mt-2 flex  justify-center rounded-3xl ">
+              <div className="flex items-center border-[#e1e0de]  border-2 px-1 md:px-4 py-1 rounded-3xl">
                 <div>
                   <span className="text-[10px] ml-6 font-semibold pt-[6px] md:ml-0 md:text-[14px] rounded-3xl py-1 cursor-pointer">
                     <span className="relative bg-clip-text font-semibold text-transparent bg-gradient-to-r from-orange-500 via-red-500 to-pink-500">
                       400k<span className="text-[#6f4af2]">+</span>
                     </span>
-                    <span className="text-gray-800 ml-2">Designers & Devs build with Relume</span>
+                    <span className="text-gray-800 ml-2">
+                      Designers & Devs build with Relume
+                    </span>
                   </span>
                 </div>
 
@@ -214,7 +236,7 @@ export default function Home() {
                       }}
                     >
                       <Image
-                        src={avatar.image || "/placeholder.svg"}
+                        src={avatar.image}
                         alt={`Avatar ${avatar.id}`}
                         className="w-3 h-3 md:w-6 md:h-6 rounded-full border-2 border-white object-cover"
                       />
@@ -222,130 +244,181 @@ export default function Home() {
                   ))}
                 </div>
               </div>
+
+              
             </div>
+
+
 
             <p className="text-[104px] tracking-tight font-relative pt-[60px] leading-7 text-center hidden md:block">
-              Website designed &
-            </p>
+              Website designed &</p>     
             <p className="text-[104px] font-relative tracking-tight md:block hidden mt-3">built faster with AI</p>
-            <p className="text-xl mt-6 text-center md:block hidden">
-              Use AI as your design ally, not as a replacement. Effortlessly generate
+            <p className="   text-xl mt-6 text-center md:block hidden">
+              Use AI as your design ally, not as a replacement. Effortlessly
+              generate{" "}
             </p>
-            <p className="text-xl text-center md:block hidden">
-              sitemaps and wireframes for marketing websites in minutes
-            </p>
-
-            {/* this is mobile responsive */}
-            <p className="font-relative text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
-            <p className="font-relative text-5xl md:hidden text-center block tracking-tight">designed & built </p>
-            <p className="font-relative text-5xl text-center md:hidden block tracking-tighter">faster with AI</p>
-            <p className="block md:hidden text-center mx-5 pt-4">
-              Use AI as your design ally, not as a replacement. Effortlessly generate sitemaps and wireframes for
-              marketing websites in minutes
+            <p className=" text-xl  text-center md:block hidden">
+              sitemaps and wireframes for marketing websites in minutes{" "}
             </p>
 
-            <div className="block md:hidden">
-              <div className="flex items-center justify-center mt-14">
-                <button className="flex px-4 rounded-md text-lg font-normal font-relative tracking-wide bg-[#e0daff] text-[rgb(98,72,255)] hover:bg-[rgb(98,72,255)] hover:text-white transition duration-200">
-                  <Image
-                    src={fourstarimage || "/placeholder.svg"}
-                    alt="fourstartimage"
-                    width={20}
-                    height={20}
-                    className="text-[rgb(98,72,255)]"
-                  />
-                  Shuffle
-                </button>
-                <button className="border-2 border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center items-center rounded-3xl font-relative px-5 py-2 ml-4">
-                  <FaFigma className="mr-2" />
-                  <FaWebflow className="mr-2" /> | 1,000+ Components
-                </button>
-              </div>
-            </div>
+       
+
+
+
+       {/* this is moboile responsive */}
+
+
+
+          {/* this is responsive data */}
+            <p className="font-relative   text-5xl text-center md:hidden block tracking-tight mt-3">Website</p>
+            <p className="font-relative   text-5xl md:hidden text-center block tracking-tight">designed & built </p>
+            <p className="font-relative  text-5xl text-center   md:hidden block tracking-tighter">faster with AI</p>
+            <p className="block md:hidden text-center mx-5  pt-4">Use AI as your design ally, not as a replacement . Effortlessly generate sitemaps abd wireframers for marketing websites in minute</p>
+
+      <div className="block md:hidden">
+      <div className="flex items-center justify-center  mt-14 ">
+          <button
+            className=" flex px-4  rounded-md text-lg font-normal font-relative tracking-wide
+      bg-[#e0daff] text-[rgb(98,72,255)] 
+      hover:bg-[rgb(98,72,255)] hover:text-white 
+      transition duration-200"
+          >
+            <Image
+              src={fourstarimage}
+              alt="fourstartimage"
+              width={20}
+              height={20}
+              className="text-[rgb(98,72,255)] "
+            />
+            Shuffle
+          </button>
+
+          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-sm justify-center  items-center  rounded-3xl font-relative px-5 py-2 ml-4 ">
+            <FaFigma
+              className="mr-2
+"
+            />{" "}
+            <FaWebflow className="mr-2" /> | 1,000+ Components{" "}
+          </button></div>
+    
+            
+          </div>
           </motion.div>
+
+          
 
           {/* Third section - Images that move left */}
           <motion.div
-            className="relative"
+            className="relative "
+           
             animate={isHovered ? { x: -40 } : { x: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
           >
             <Image
-              src={aeroplane || "/placeholder.svg"}
+              src={aeroplane}
               alt="allzakelly"
               width={200}
-              className="mb-4 mr-5 hidden md:block"
+              className="mb-4 mr-5 hidden md:block "
             />
-            <Image src={refound || "/placeholder.svg"} alt="untillknows" width={200} className="mb-4 hidden md:block" />
+          
+
+
             <Image
-              src={memory || "/placeholder.svg"}
+              src={refound}
+              alt="untillknows"
+              width={200}
+              className="mb-4  hidden  md:block"
+            />
+           
+            <Image
+              src={memory}
               alt="endtoend"
               width={200}
-              className="mr-5 hidden md:block absolute"
+              className="mr-5 hidden  md:block absolute"
             />
+          
           </motion.div>
         </motion.div>
 
 
         <div className="md:block hidden">
-        <div className="flex items-center ml-12 absolute bottom-[175px]">
-          <button className="flex px-3 rounded-md items-center text-sm font-normal font-relative tracking-wide bg-[#e0daff] text-[rgb(98,72,255)] hover:bg-[rgb(98,72,255)] hover:text-white transition duration-200">
+  
+<div className="flex items-center ml-12 absolute bottom-[350px]  ">
+          <button
+            className=" flex px-3 rounded-md items-center text-sm font-normal font-relative tracking-wide
+      bg-[#e0daff] text-[rgb(98,72,255)] 
+      hover:bg-[rgb(98,72,255)] hover:text-white 
+      transition duration-200"
+          >
             <Image
-              src={fourstarimage || "/placeholder.svg"}
+              src={fourstarimage}
               alt="fourstartimage"
               width={30}
               height={30}
-              className="text-[rgb(98,72,255)]"
+              className="text-[rgb(98,72,255)] "
             />
             Shuffle
           </button>
-          <button className="border-2 border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-[14px] justify-center items-center rounded-3xl font-relative px-5 py-[2px] ml-3">
-            <FaFigma className="mr-2" />
-            <FaWebflow className="mr-2" /> | 1,000+ Components
+
+          <button className="border-2  border-[#d0d0ce] text-[#686868] bg-[rgba(241,240,238,255)] flex text-[14px] justify-center  items-center  rounded-3xl font-relative px-5 py-[2px] ml-3 ">
+            <FaFigma
+              className="mr-2
+"
+            />{" "}
+            <FaWebflow className="mr-2" /> | 1,000+ Components{" "}
           </button>
         </div>
-        <div className="hidden md:block">
-        <div className="md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] h-[150px]">
-          <div
-            style={{
-              background: `
-            linear-gradient(white, white) padding-box,
-            linear-gradient(to right, #FF5D5D, #6366F1) border-box`,
-            }}
-            className="flex flex-col cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  
-          border-[6px] border-b-[12px] border-transparent rounded-2xl
-          relative px-4 py-3 md:w-[830px]"
-          >
-            <div>
-              <input
-                type="text"
-                placeholder="Describe a company in a sentence or two..."
-                className="w-full px-2 py-1 text-gray-600 text-lg md:text-xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
-              />
-            </div>
+</div>
+      </div>
 
-            <div>
-              <button
-                className="
-              bg-[#6366F1] text-white px-4 py-2 rounded-lg  
-              flex items-center gap-2 absolute right-4 
-              top-1/2 -translate-y-1/2
-              text-2xl cursor-pointer"
-              >
-                <span className="text-lg">✨</span>
-                Generate
-              </button>
-            </div>
+
+
+
+
+  {/* this is related to the laptop version */}
+     <div className="hidden md:block">
+     <div className=" md:flex flex flex-col items-center justify-center bg-[rgba(241,240,238,255)] h-[150px] ">
+        <div
+          style={{
+            background: `
+          linear-gradient(white, white) padding-box,
+          linear-gradient(to right, #FF5D5D, #6366F1) border-box`,
+          }}
+          className=" flex flex-col cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  
+        border-[6px] border-b-[12px] border-transparent rounded-2xl
+        relative px-4 py-3  md:w-[830px] 
+      "
+        >
+          <div >
+          <input
+            type="text"
+            placeholder="Describe a company in a sentence or two..."
+            className="w-full px-2 py-1 text-gray-600  text-lg md:text-xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
+          />
           </div>
+
+         <div>
+           <button
+            className="
+          bg-[#6366F1] text-white px-4 py-2 rounded-lg  
+          flex items-center gap-2 absolute right-4 
+          top-1/2 -translate-y-1/2
+         text-2xl cursor-pointer"
+          >
+            <span className="text-lg">✨</span>
+            Generate
+          </button>
+         </div>
         </div>
       </div>
-      </div>
-      </div>
 
-      {/* this is the bottom button component */}
-      
+     </div>
 
-      {/* this is related to the laptop version */}
+
+ 
+
+ 
+
     
     </div>
   )
