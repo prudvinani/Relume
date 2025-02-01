@@ -285,10 +285,9 @@ export default function Home() {
             />
           </motion.div>
         </motion.div>
-      </div>
 
-      {/* this is the bottom button component */}
-      <div className="md:block hidden">
+
+        <div className="md:block hidden">
         <div className="flex items-center ml-12 absolute bottom-[175px]">
           <button className="flex px-3 rounded-md items-center text-sm font-normal font-relative tracking-wide bg-[#e0daff] text-[rgb(98,72,255)] hover:bg-[rgb(98,72,255)] hover:text-white transition duration-200">
             <Image
@@ -341,6 +340,10 @@ export default function Home() {
         </div>
       </div>
       </div>
+      </div>
+
+      {/* this is the bottom button component */}
+      
 
       {/* this is related to the laptop version */}
     
