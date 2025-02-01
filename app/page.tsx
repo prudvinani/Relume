@@ -343,7 +343,7 @@ export default function Home() {
 
         <div className="md:block hidden">
   
-<div className="flex items-center ml-12 absolute bottom-[350px]  ">
+<div className="flex items-center ml-12 absolute bottom-[175px]  ">
           <button
             className=" flex px-3 rounded-md items-center text-sm font-normal font-relative tracking-wide
       bg-[#e0daff] text-[rgb(98,72,255)] 
