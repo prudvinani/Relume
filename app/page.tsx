@@ -158,7 +158,7 @@ export default function Home() {
         )}
 
         <motion.div
-          className="flex relative justify-between  mt-5"
+          className="flex relative justify-between h-full  mt-5"
           onHoverStart={() => setIsHovered(true)}
           onHoverEnd={() => setIsHovered(false)}
         >
