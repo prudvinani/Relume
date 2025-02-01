@@ -414,7 +414,7 @@ export default function Home() {
           <input
             type="text"
             placeholder="Describe a company in a sentence or two..."
-            className="w-full px-2 py-1 text-gray-600  text-lg md:text-2xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
+            className="w-full px-2 py-1 text-gray-600  text-lg md:text-xl placeholder-gray-500 outline-none rounded-3xl cursor-pointer"
           />
           </div>
 
