@@ -262,9 +262,9 @@ export default function Home() {
 
 
 
-            <p className="text-[110px] tracking-tight font-relative pt-[60px] leading-7 text-center hidden md:block">
+            <p className="text-[106px] tracking-tight font-relative pt-[60px] leading-7 text-center hidden md:block">
               Website designed &</p>     
-            <p className="text-[110px] font-relative tracking-tight md:block hidden mt-3">built faster with AI</p>
+            <p className="text-[106px] font-relative tracking-tight md:block hidden mt-3">built faster with AI</p>
             <p className="   text-xl mt-6 text-center md:block hidden">
               Use AI as your design ally, not as a replacement. Effortlessly
               generate{" "}
